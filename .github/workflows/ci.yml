@@ -1,3 +1,4 @@
+name : CI
 # Runs on every Pull Request. Validates the .NET app AND the Terraform
 # config, but never touches AWS — nothing here creates, changes, or
 # deletes any real infrastructure. That's build.yml's job, and only
